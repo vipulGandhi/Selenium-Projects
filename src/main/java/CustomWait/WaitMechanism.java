@@ -1,6 +1,5 @@
 package CustomWait;
 
-import org.bouncycastle.jcajce.provider.asymmetric.rsa.DigestSignatureSpi.noneRSA;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -29,7 +28,6 @@ public class WaitMechanism
 					try {
 						Thread.sleep((long) pollingTime);
 					} catch (InterruptedException e1) {
-						// TODO Auto-generated catch block
 						e1.printStackTrace();
 					}
 
